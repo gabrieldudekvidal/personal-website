@@ -1,36 +1,28 @@
 body {
-  background-color: #f3f3f3;
   font-family: 'Fredoka', sans-serif;
   font-weight: 300;
   font-size: 20px;
 }
 
-.photo {
-  width: 300px;
-  margin: 0px auto -10px auto;
-  display: block;
-  border-radius: 10px;
-}
-
-.container-photo {
-  width: 50%;
-  margin: 0px auto 0px auto;
-  display: block;
-  padding: 10px;
-}
-
-
 .container {
-  background: #ffffff;
   width: 50%;
   margin: 0px auto 15px auto;
   display: block;
   padding: 15px;
 }
 
+.skills {
+  background: #d5ffd4;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: #4ab846;
+
+}
+
 .social-item {
   margin: 0px 10px 0px 10px;
-  color: #8c00ff;
+  color: #4ab846;
 }
 
 @media only screen and (max-width: 1500px) {
