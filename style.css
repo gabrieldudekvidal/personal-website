@@ -2,6 +2,12 @@ body {
   font-family: 'Fredoka', sans-serif;
   font-weight: 300;
   font-size: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  color: #ff0062;
 }
 
 .container {
@@ -12,17 +18,15 @@ body {
 }
 
 .skills {
-  background: #d5ffd4;
   border-radius: 5px;
   padding: 5px;
   text-align: center;
-  color: #4ab846;
-
+  color: #ff0062;
 }
 
 .social-item {
   margin: 0px 10px 0px 10px;
-  color: #4ab846;
+  color: #ff0062;
 }
 
 @media only screen and (max-width: 1500px) {
