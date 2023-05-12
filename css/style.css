@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans';
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+p, li {
+    color: #525252;
+    line-height: 1.5;
+}
+
+.profile-picture {
+    width: 15%;
+    margin: 30px 0px 40px 0px;
+}
+
+.link {
+    text-decoration: none;
+    line-height: 2;
+    color: #ff5b1a;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.container {
+
+    margin: 10px auto;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
