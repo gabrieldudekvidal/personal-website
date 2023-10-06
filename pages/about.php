@@ -14,6 +14,7 @@
     <?php require_once "../includes/navbar.html" ?>
 
     <div class="content">
+      <img class="profile-picture" src="../images/profile_picture.png" alt="gabriel vidal">
       <h1>About me</h1>
       <p>👋 Hello, I'm a 26-year-old tech enthusiast who embarked on a journey into the world of technology
          a few years back. I'm fueled by a deep passion and unwavering motivation for what I do—I'm the type of person who voraciously consumes

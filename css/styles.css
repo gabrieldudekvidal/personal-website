@@ -109,9 +109,22 @@ p, li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 70vh;
+    height: auto;
     margin-top: 50px;
     padding: 30px;
     border-radius: 20px;
     border: 1px solid #555e5e;
+    text-align: justify;
+}
+
+.profile-picture {
+    width: 26%;
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Horizontally center the image within the container */
+    max-width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+li {
+    max-width: 90ch;
 }
