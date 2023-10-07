@@ -129,25 +129,51 @@ li {
 }
 
 @media (max-width: 600px) {
+
+   
+    body {
+        font-size: 12px;
+    }
    
     .main-text {
-        position: relative;
-        top: 120px;
+        position: absolute;
+        top: 30%;
         left: 20px;
         width: 90%;
         color: #B12952;
     }
 
+    .main-text h1 {
+        font-size: 1.9rem;
+    }
+
     .description {
         left: 20px;
-        position: relative;
-        top: 200px;
+        position: absolute;
+        top: 80%;
     }
 
     .social-links {
         left: 20px;
-        position: relative;
-        top: 230px;
+        position: absolute;
+        top: 90%;
         padding-bottom: 50px;
+    }
+
+    .social-links i {
+        font-size: 1rem;
+    }
+
+    .content {
+        background: none;
+        border: none;
+        width: 78%;
+        display: block; 
+        height: 100%;
+        margin-top: 150px;
+    }
+
+    .profile-picture {
+        width: 60%;
     }
 }
