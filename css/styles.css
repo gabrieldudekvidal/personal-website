@@ -118,7 +118,7 @@ p, li {
 }
 
 .profile-picture {
-    width: 26%;
+    width: 24%;
     display: block; /* Ensure the image is a block element */
     margin: 0 auto; /* Horizontally center the image within the container */
     max-width: 100%;
