@@ -171,6 +171,13 @@ li {
         display: block; 
         height: 100%;
         margin-top: 150px;
+        
+    }
+
+    li {
+        margin-bottom: 10px;
+        line-height: 1rem;
+        text-align: left;
     }
 
     .profile-picture {
