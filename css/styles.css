@@ -19,7 +19,6 @@ p, li {
 
 .light-text {
     color: #c4c4c4;
-    text-decoration: underline;
 }
 
 .top-nav {
@@ -127,4 +126,28 @@ p, li {
 
 li {
     max-width: 90ch;
+}
+
+@media (max-width: 600px) {
+   
+    .main-text {
+        position: relative;
+        top: 120px;
+        left: 20px;
+        width: 90%;
+        color: #B12952;
+    }
+
+    .description {
+        left: 20px;
+        position: relative;
+        top: 200px;
+    }
+
+    .social-links {
+        left: 20px;
+        position: relative;
+        top: 230px;
+        padding-bottom: 50px;
+    }
 }
