@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Parkinsans", sans-serif;
+}
+
+h1, h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6rem;
+}
+
+nav {
+    position: fixed;
+    margin: 20px 0 0 20px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    color: #5e44bb;
+}
+
+button {
+    background-color: #5e44bb;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: #462f9a;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.con-info, .con-picture {
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.con-info {
+    float: left;
+}
+
+.social-links {
+    margin-top: 40px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+}
+
+.con-picture {
+    --_mesh-gradient-blur: 0px;
+    --_mesh-gradient-blend-mode: normal;    
+    background: radial-gradient(at 99% 91%, #738fa1 0px, transparent 50%), radial-gradient(at 95% 71%, #7378a1 0px, transparent 50%), radial-gradient(at 21% 4%, #8573a1 0px, transparent 50%), radial-gradient(at 84% 97%, #a18573 0px, transparent 50%), radial-gradient(at 19% 43%, #8fa173 0px, transparent 50%) #000000;
+    mix-blend-mode: var(--_mesh-gradient-blend-mode);
+    filter: blur(var(--_mesh-gradient-blur));
+    float: right;
+}
+
+.profile-pic {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.con-ap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 600px;
+}
+
+input, textarea, select {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    width: 300px;
+}
+
+.btn-back {
+    margin: 0;
+}
