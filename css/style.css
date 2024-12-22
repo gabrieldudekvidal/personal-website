@@ -35,16 +35,16 @@ a {
 }
 
 button {
-    background-color: #5e44bb;
     color: #fff;
     padding: 20px;
-    border: none;
+    border: 1px solid #fff;
+    background-color: transparent;
 }
 
 button:hover {
     background-color: #462f9a;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s ease-in-out;
 }
 
 .con-info, .con-picture {
@@ -79,11 +79,10 @@ button:hover {
 }
 
 .con-ap {
+    width: 60%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-height: 600px;
+    top: 10%;
+    left: 15%;
 }
 
 input, textarea, select {
@@ -100,3 +99,4 @@ input, textarea, select {
     top: 20px;
     left: 20px;
 }
+
