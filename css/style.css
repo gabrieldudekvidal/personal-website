@@ -102,3 +102,19 @@ input, textarea, select {
     left: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .con-info, .con-picture {
+        width: 100%;
+        height: 50vh;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+    
+    .profile-pic {
+        width: 50%;
+        border-radius: 2rem;
+        margin-bottom: 2rem; 
+    }
+}
