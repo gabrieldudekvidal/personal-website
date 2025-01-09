@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -18,7 +19,7 @@ h1, h2, h3 {
     margin-top: 20px;
 }
 
-p {
+p, li {
     line-height: 1.9rem;
 }
 
@@ -35,15 +36,13 @@ a {
 }
 
 button {
-    color: #fff;
-    padding: 20px;
-    border: 1px solid #fff;
-    border-radius: 1rem;
+    border: none;
+    color: #91c022;
     background-color: transparent;
 }
 
 button:hover {
-    background-color: #462f9a;
+    color: #9fdb12;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -67,11 +66,27 @@ button:hover {
 
 .con-picture {
     --_mesh-gradient-blur: 0px;
-    --_mesh-gradient-blend-mode: normal;    
-    background: radial-gradient(at 99% 91%, #738fa1 0px, transparent 50%), radial-gradient(at 95% 71%, #7378a1 0px, transparent 50%), radial-gradient(at 21% 4%, #8573a1 0px, transparent 50%), radial-gradient(at 84% 97%, #a18573 0px, transparent 50%), radial-gradient(at 19% 43%, #8fa173 0px, transparent 50%) #000000;
+    --_mesh-gradient-blend-mode: normal;
+    background: linear-gradient(270deg, #738fa1, #8573a1, #a18573, #8fa173);
+    background-size: 400% 400%;
     mix-blend-mode: var(--_mesh-gradient-blend-mode);
     filter: blur(var(--_mesh-gradient-blur));
     float: right;
+
+    /* Add animation */
+    animation: smoothGradient 8s linear infinite;
+}
+
+@keyframes smoothGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .profile-pic {
@@ -84,6 +99,34 @@ button:hover {
     position: absolute;
     top: 10%;
     left: 15%;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInSlideDown 1.5s ease-out forwards;
+}
+
+@keyframes fadeInSlideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(10px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.con-box {
+    display: flex;
+    gap: 3rem; 
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 250px;
 }
 
 input, textarea, select {
