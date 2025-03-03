@@ -34,6 +34,10 @@ a {
     border-radius: 2rem;
 }
 
+.con {
+    background: radial-gradient(circle at top left, #272727, #000000);
+}
+
 .con, .con-picture, .con-content {
     display: flex;
     justify-content: center;
@@ -48,7 +52,6 @@ a {
 .con-picture {
     height: 100vh; 
     width: 100%;
-    background: radial-gradient(circle at top left, #ce3c93, #6f36ca);
 }
 
 .box {
