@@ -11,7 +11,7 @@ body {
     font-family: "Raleway", sans-serif;
     background-color: #090909;
     color: #FFF;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 h1, h2 {
@@ -38,7 +38,7 @@ hr {
 }
 
 .profile-pic {
-    width: 450px;
+    width: 300px;
     border-radius: 2rem;
 }
 
@@ -76,7 +76,6 @@ hr {
     opacity: 1;
     transform: translateY(0);
 }
-
 
 .social-links {
     margin-top: 20px;
