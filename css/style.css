@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #f7f7f7;
+    background-color: #f9f9f9;
     color: #202020;
     font-size: 0.9rem;
     font-family: "VT323", monospace;
@@ -48,6 +48,10 @@ a {
     margin: 100px 0 30px 0;
 }
 
+.img-skills {
+    margin-top: 20px;
+}
+
 .con, .con-picture, .con-content {
     display: flex;
     justify-content: center;
@@ -56,7 +60,7 @@ a {
 }
 
 .con-content {
-    width: 50%;
+    width: 40%;
 }
 
 .box {
@@ -79,6 +83,12 @@ a {
     margin-left: 0px;
 }
 
+.work {
+    background-color: #fff6d5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 768px) {
 
     h1 {
@@ -87,6 +97,10 @@ a {
 
     .con-content {
         width: 90%;
+    }
+
+    .img-skills {
+        width: 100%;
     }
 
 }
