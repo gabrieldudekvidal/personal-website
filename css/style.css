@@ -41,11 +41,11 @@ li {
 a {
     text-decoration: none;
     margin: 20px;
-    color: #49962d;
+    color: #383838;
 }
 
 i {
-    color: #49962d;
+    color: #383838;
 }
 
 .profile-pic {
@@ -98,8 +98,8 @@ i {
 }
 
 .work {
-    background-color: #aad99a;
-    color: #49962d;
+    background-color: #cccccc;
+    color: #383838;
     padding: 10px;
     border-radius: 10px;
 }
