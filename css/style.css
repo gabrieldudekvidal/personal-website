@@ -9,8 +9,7 @@
 }
 
 body {
-    background-color: #f9f9f9;
-    color: #383838;
+    color: #212121;
     font-size: 0.9rem;
 }
 
@@ -35,17 +34,17 @@ p,
 li {
     line-height: 1.3rem;
     text-align: justify;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 a {
     text-decoration: none;
     margin: 20px;
-    color: #383838;
+    color: #212121;
 }
 
 i {
-    color: #383838;
+    color: #212121;
 }
 
 .profile-pic {
@@ -76,9 +75,6 @@ i {
     padding: 15px;
     opacity: 0;
     transform: translateY(50px);
-    transition:
-        opacity 0.6s ease-out,
-        transform 0.6s ease-out;
     background-color: #fff;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -89,19 +85,48 @@ i {
     transform: translateY(0);
 }
 
-.social-links {
+.project-links {
     display: flex;
-}
-
-.social-link {
     margin-left: 0px;
 }
 
+.social-links {
+    margin-top: 20px;
+}
+
 .work {
-    background-color: #cccccc;
-    color: #383838;
+    background-color: #fff;
+    color: #212121;
+    border: 1px solid #212121;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    min-width: 120px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.tag {
+    display: inline-block;
+    background: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.05),
+        0 0 0 1px rgba(0, 0, 0, 0.02);
+    transition: all 0.2s ease;
+    backdrop-filter: blur(2px);
 }
 
 @media screen and (max-width: 768px) {
