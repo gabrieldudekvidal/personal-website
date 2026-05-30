@@ -72,7 +72,7 @@ h2 {
 }
 
 .con {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .con-experience,
 .con-projects {
@@ -122,11 +122,13 @@ h2 {
 @media screen and (max-width: 480px) {
     .con-hero {
         display: block;
+        margin-top: 110px;
     }
 
     .con-about {
         display: block;
         width: 90%;
+        margin-top: 100px;
     }
 
     .box-about,
@@ -136,5 +138,11 @@ h2 {
 
     .con {
         width: 90%;
+        margin-top: 30px;
+    }
+
+    .con-pic img {
+        width: 150px;
+        margin-bottom: 30px;
     }
 }
