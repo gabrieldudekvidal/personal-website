@@ -1,25 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
-    font-family:
-        -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
-        "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
     background-color: #f2f2f2;
+    font-family: "Work Sans", sans-serif;
+}
+
+h1,
+h2 {
+    font-family: "Libertinus Serif", serif;
+    font-weight: 600;
 }
 
 a {
-    color: #579bff;
+    color: #000;
     text-decoration: none;
 }
 
-h2 {
-    margin-top: 0;
-    margin-bottom: 15px;
+footer {
+    text-align: center;
+    margin: 50px 0 20px 0;
 }
 
 .wrapper {
@@ -27,122 +33,76 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .con-hero {
     display: flex;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 120px;
+}
+
+.con-pic img {
+    width: 100px;
 }
 
 .con-hero-desc {
     line-height: 2.5rem;
 }
 
+.con-links {
+    margin-left: 40px;
+    line-height: 1.5rem;
+}
+
 .con-hero-desc h2 {
     color: #b0b0b0;
 }
 
-.con-pic img {
-    width: 150px;
-}
-
-.con-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-top: 150px;
-    width: 800px;
-}
-
-.box-about,
-.box-experience,
-.box-project,
-.box-get-in-touch {
-    padding: 20px;
-    background-color: white;
-    border-radius: 20px;
-}
-
-.box-about.full {
-    grid-column: 1 / -1;
-    text-align: justify;
+.profile-pic {
+    border-radius: 100%;
 }
 
 .con {
-    margin-top: 80px;
+    width: 600px;
+    margin-top: 50px;
+    line-height: 1.5rem;
 }
-.con-experience,
-.con-projects {
-    margin-top: 20px;
+
+.con-project {
+    position: relative;
+    margin-top: 50px;
+    padding: 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 50px;
+    background: #e8e8e8;
+    background: linear-gradient(-150deg, #f4f4f4 0%, #e8e8e8 100%);
+    overflow: hidden;
+}
+
+.project-header {
     display: flex;
     gap: 20px;
-}
-
-.text-skills {
-    text-align: left;
-    line-height: 1.8rem;
-    margin-left: 20px;
-}
-
-.box-experience,
-.box-project,
-.box-get-in-touch {
-    width: 390px;
-}
-
-.icon {
-    width: 60px;
-    padding: 5px;
-}
-
-.con-btn {
     margin-bottom: 20px;
 }
 
-.btn {
-    background-color: #579bff;
-    padding: 10px;
-    border-radius: 15px;
-    color: #fff;
-}
-
-.app-desc {
-    margin: 20px 0px 50px 0px;
-    text-align: justify;
-}
-
-.box-get-in-touch {
-    line-height: 1.8rem;
-    margin-bottom: 50px;
+.work-logo {
+    width: 70px;
+    border-radius: 30%;
 }
 
 @media screen and (max-width: 480px) {
+
     .con-hero {
-        display: block;
-        margin-top: 110px;
+        flex-direction: column;
+        text-align: center;
     }
 
-    .con-about {
-        display: block;
-        width: 90%;
-        margin-top: 100px;
-    }
-
-    .box-about,
-    .box-experience {
-        margin-bottom: 20px;
+    .con-links {
+        margin: 0;
     }
 
     .con {
         width: 90%;
-        margin-top: 30px;
-    }
-
-    .con-pic img {
-        width: 150px;
-        margin-bottom: 30px;
     }
 }
