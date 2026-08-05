@@ -94,7 +94,6 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-
     .con-hero {
         flex-direction: column;
         text-align: center;
