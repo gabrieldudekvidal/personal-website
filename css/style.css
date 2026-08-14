@@ -90,7 +90,6 @@ footer {
 .work-logo {
     width: 60px;
     height: 60px;
-    border-radius: 30%;
 }
 
 @media screen and (max-width: 480px) {
