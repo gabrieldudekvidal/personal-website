@@ -10,8 +10,8 @@
 body {
     background-color: #f2f2f2;
     font-family: "Work Sans", sans-serif;
-    background: #242424;
-    background: linear-gradient(0deg, rgba(36, 36, 36, 1) 0%, rgba(69, 69, 69, 1) 100%);
+    background: #041702;
+    background: linear-gradient(180deg, rgba(4, 23, 2, 1) 0%, rgba(0, 0, 0, 1) 100%);
     color: #fff;
 }
 
@@ -77,8 +77,9 @@ footer {
     position: relative;
     margin-top: 30px;
     padding: 40px;
-    border-radius: 50px;
-    background: #383838;
+    border-radius: 40px;
+    background: #0A0A0A;
+    border: 1px solid #1C1C1C;
 }
 
 .project-header {
@@ -91,6 +92,20 @@ footer {
 .work-logo {
     width: 60px;
     height: 60px;
+}
+
+.btn-contact {
+    padding: 12px 25px;
+    background: #fff;
+    border-radius: 15px;
+        color: #000;
+}
+
+.con-btn {
+    margin: 80px 0 80px;
+    display: flex;
+    justify-content: center;
+
 }
 
 @media screen and (max-width: 480px) {
