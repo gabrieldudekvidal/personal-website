@@ -8,11 +8,8 @@
 }
 
 body {
-    background-color: #f2f2f2;
+    background-color: #fff;
     font-family: "Work Sans", sans-serif;
-    background: #041702;
-    background: linear-gradient(180deg, rgba(4, 23, 2, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    color: #fff;
 }
 
 h1,
@@ -22,13 +19,11 @@ h2 {
 }
 
 a {
-    color: #EDEDED;
+    color: #000;
     text-decoration: none;
 }
 
-p {
-    color: #B5B5B5;
-}
+
 footer {
     text-align: center;
     margin: 50px 0 20px 0;
@@ -41,27 +36,19 @@ footer {
     align-items: center;
 }
 
+.con-hero h1 {
+    font-size: 46px;
+}
+
 .con-hero {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-top: 120px;
-}
-
-.con-pic img {
-    width: 100px;
-}
-
-.con-hero-desc {
-    line-height: 2.5rem;
+    margin: 100px 0 20px 0;
+    text-align: center;
 }
 
 .con-links {
     margin-left: 40px;
     line-height: 1.5rem;
 }
-
-
 
 .profile-pic {
     border-radius: 100%;
@@ -78,8 +65,9 @@ footer {
     margin-top: 30px;
     padding: 40px;
     border-radius: 40px;
-    background: #0A0A0A;
-    border: 1px solid #1C1C1C;
+    background: #F7F7F7;
+    border: 1px solid #E0E0E0;
+    min-height: 250px;
 }
 
 .project-header {
@@ -96,9 +84,9 @@ footer {
 
 .btn-contact {
     padding: 12px 25px;
-    background: #fff;
+    background: #0062FF;
     border-radius: 15px;
-        color: #000;
+    color: #fff;
 }
 
 .con-btn {

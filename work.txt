@@ -1,0 +1,44 @@
+                <a href="https://devhao.com/" target="_blank">
+                    <div class="con-project">
+                        <div class="project-header">
+                            <img
+                                class="work-logo"
+                                src="images/devhao.png"
+                                alt="Logo"
+                            />
+                            <div>
+                                <h2>Devhao</h2>
+                                <span>Software Agency</span>
+                            </div>
+                        </div>
+                        <p class="app-desc">
+                            Kailo was born out of necessity during my time living in
+                            China. By combining a simple user experience
+                            with a scalable cloud backend, I built a tool that makes daily Chinese practice
+                            more efficient.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://gabrieldudekvidal.github.io/still-photo-library-website/" target="_blank">
+                    <div class="con-project">
+                        <div class="project-header">
+                            <img
+                                class="work-logo"
+                                src="images/still.png"
+                                alt="Logo"
+                            />
+                            <div>
+                                <h2>Still Photo Library</h2>
+                                <span>Swift</span>
+                            </div>
+                        </div>
+
+                        <p class="app-desc">
+                            Photo libraries often come packed with features like: social sharing, editing tools,
+                            recommendations... While those tools are be useful, sometimes they take
+                            away from the simple act of looking at and appreciating your own photos.
+                            With this in mind I decided to create a distraction-free photo library.
+                        </p>
+                    </div>
+                </a>
